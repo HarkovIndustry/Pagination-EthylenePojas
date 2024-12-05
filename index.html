@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pojas Tourist Guide</title>
+    <link rel="stylesheet" href="frameworks/bootstrap.min.css">
+    <link rel="stylesheet" href="frameworks/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#topArea">Pojas Tourist Guide</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link is-active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#information">Information</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutUs">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="topArea" class="container mt-3 invi"></div>
+
+    <!-- Home Section -->
+    <div class="container mt-5 pt-5" id="home">
+        <h1 class="title">Welcome to Pojas Tourist Guide!</h1>
+        <p>Discover the most breathtaking tourist spots in Bohol, Philippines. Our guide offers detailed information,
+            stunning images, and helpful tips to make your visit unforgettable.</p>
+        <p>Whether you're looking for adventure, relaxation, or a bit of both, Pojas Tourist Guide has something for
+            everyone. Dive into the beauty of Bohol's beaches, explore its vibrant culture, and enjoy the local cuisine.
+        </p>
+    </div>
+
+    <!-- Information Section -->
+    <div class="container mt-5" id="information">
+        <!-- Dynamic content will be generated here -->
+    </div>
+
+    <!-- Pagination -->
+    <nav aria-label="Page navigation" class="mt-2">
+        <ul class="pagination justify-content-center">
+            <!-- Pagination items will be dynamically added here -->
+        </ul>
+    </nav>
+
+    <!-- About Us Section -->
+    <div class="container mt-5" id="aboutUs">
+        <h2 class="title">About Us</h2>
+        <p>Pojas Tourist Guide is your comprehensive resource for discovering the beauty and charm of Bohol,
+            Philippines. We provide detailed information on the island's top tourist destinations, cultural attractions,
+            and hidden gems.</p>
+        <p>Our mission is to help travelers make the most of their visit by offering insightful tips, engaging content,
+            and stunning visuals. Whether you're a first-time visitor or a seasoned explorer, our guide is designed to
+            enhance your travel experience.</p>
+        <p>We believe in promoting responsible tourism and preserving the natural beauty of Bohol. Through our guide, we
+            aim to encourage sustainable travel practices that respect the local environment and culture.</p>
+        <p>Join us on a journey to discover the wonders of Bohol. Let Pojas Tourist Guide be your trusted companion in
+            creating unforgettable memories and experiences.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer mt-5">
+        <div class="container">
+            <p>This website is built for project purposes only. All information is gathered from Google, and no
+                plagiarism is intended.</p>
+            <p>In accordance with the Philippine Intellectual Property Code (Republic Act No. 8293), we respect the
+                intellectual property rights of authors, artists, and creators. All materials and content reproduced
+                here are used under the principle of fair use, specifically for non-commercial and educational purposes.
+            </p>
+            <hr>
+            <p>Developed by: <code class="text-dark">Harkov Industry</code></p>
+        </div>
+    </footer>
+
+    <!-- Modal for View More -->
+    <div class="modal fade" id="viewMoreModal" tabindex="-1" aria-labelledby="viewMoreModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="viewMoreModalLabel">View More</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Dynamic content will be inserted here -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="frameworks/bootstrap.min.js"></script>
+    <script src="frameworks/script.js"></script>
+</body>
+
+</html>
